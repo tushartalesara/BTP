@@ -7,7 +7,7 @@ from scipy.stats import beta
 class Data(object):
     def __init__(self):
         # for gowalla
-        self.path = './Data/gowalla/'
+        self.path = './gowalla/'
         self.batch_size = 1024
 
         # #for amazon-book
